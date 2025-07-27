@@ -1,3 +1,4 @@
+
 # swirlai-ai-engineering-bootcamp-03-with-memory
 
 This is part of the fourth sprint of the SwirlAI Engineering Bootcamp. It is a fast api implementation of a hybrid RAG pipeline that uses Qdrant for vector storage and retrieval, OpenAI for embeddings and generation, LangSmith for observability, instructor for structured outputs, prompts (yaml files) or prompt registry of LangSmith and streamlit for the UI. The displayed information has the relevant images and short description of the items. It also implements memory using LangGraph. The memory is stored in a postgres database.
